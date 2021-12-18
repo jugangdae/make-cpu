@@ -1,0 +1,10 @@
+# JZ TEST
+
+# init
+DATA R0, 10	# 2 byte
+DATA R1, 10	# 2 byte
+
+# main
+XOR R0, R1	# 1 byte
+JZ 0		# 2 byte
+
